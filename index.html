@@ -30,7 +30,7 @@
 <nav class="navbar">
     
     <div id="mySidenav" class="sidenav">
-        <button class="btn closebtn" onclick="closeNav()">&times;</button>   
+        <a href="javascript:void(0)" class="btn closebtn" onclick="closeNav()">&times;</a>   
         
         <ul id="menu-main-menu">
             <li><a href="#">About</a></li>
@@ -52,8 +52,8 @@
         </ul>  
 
         <div id="main">
-            <a class="nav-link text-body text-decoration-none" href="#">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="trig">&#9776;</span>
+            <a class="nav-link text-body text-decoration-none" href="#" id="trig">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776;</span>
             </a>
         </div> 
 
@@ -74,7 +74,7 @@
             <h1 class="display"><span style="color:red">Leading</span> the Way<br>in Russian Law</h1>          
         </div>        
         
-                <ul class="nav justify-content-end py-5" id="mainList">
+                <ul class="nav" id="mainList">
                     <li class="nav-item">
                       <a class="nav-link " href="#">ABOUT</a>
                     </li>
@@ -130,7 +130,7 @@
     <div class="row border border-bottom border-top-0 border-dark border-right-0">
 
         <div class="col-lg-2 col-1"></div>
-        <div class="col-lg-10 col-11 my-3">
+        <div class="col-lg-10 col-10 my-3">
             <p>Providing a <span class="text-danger">major Russian developer and construction
                  company</span> with the complex due diligence procedure involving
                  over 50 land plots in the Ekaterinburg region
@@ -140,7 +140,7 @@
         </div>
 
         <div class="col-lg-2 col-1"></div>
-        <div class="col-lg-10 col-11 my-3">
+        <div class="col-lg-10 col-10 my-3">
             <p>Advising major <span class="text-danger">transnational pharmaceutical company</span>
                  on the issues of launching a new product in
                  Russia combining a drug and a medical product
@@ -151,7 +151,7 @@
         </div>
 
         <div class="col-lg-2 col-1"></div>
-        <div class="col-lg-10 col-11 my-3">
+        <div class="col-lg-10 col-10 my-3">
             <p>Advising Swedish distributor of hose and fluid components
             <span class="text-danger">Hydroscand Group</span> in the process of implementing unified corporate 
                  instructions for the managing directors and board of directors in the client’s
@@ -378,9 +378,9 @@
 <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "370px";
-      document.getElementById("mySidenav").style.borderRight = "1px solid black";
+      document.getElementById("mySidenav").style.borderLeft = "1px solid black";
       document.getElementById("main").style.display = none;
-        document.getElementById("trig").addEventListener("click", controlAnimation);
+      document.getElementById("trig").addEventListener("click", controlAnimation);
     }
     function controlAnimation(){
         document.getElementById("main-menu-main").style.animation = "fadeIn";
@@ -388,8 +388,8 @@
     
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
-
+      document.getElementById("main").style.marginRight= "0";
+      document.getElementById("main-menu-main").style.animation = none;
     }
 
 </script>
