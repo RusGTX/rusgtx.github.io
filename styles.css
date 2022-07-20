@@ -2,7 +2,6 @@
   margin:0px;
   padding: 0px;
   box-sizing: border-box;
-
 }
 
 /*                 PARTICULES             */
@@ -73,8 +72,9 @@ font-size: 18px;
 }
 
 .display{
-    font-size: 75px;
-    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 300;
     margin: 5px;
     padding-bottom: 5px;
 }
@@ -82,21 +82,23 @@ font-size: 18px;
 #sec{
     font-size:35px;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     padding: 25px;
 }
 
 .small-header{
   margin: 5px;
-  padding: 25px;
+  padding: 5px;
   font-size: 15px;
 }
-.ex{
-    border-bottom:1px solid grey;
-    border-width: 150px;
+.expert{
+    padding-top: 50px;
+    left: 25px;
+    padding-bottom: 150px;
 }
+
 hr{
-  width: 85%;
+  width: 45%;
   margin: auto;
   background-color: rgb(255, 247, 247);
 }
@@ -203,9 +205,15 @@ hr{
     #main a {padding: 0px; margin-left: 5px;}
     .display{font-size: 30px; margin-top: 10px; margin-left: -5px; }
     #header-contact{max-height: 400px;}
-    #sec{font-size: 18px; margin: 20px; padding: 15px;}
+    #sec{font-size: 16px; margin: 0px; padding: 5px;}
     #webcoderskull h1{font-size: 2rem;}
     #mainList{justify-content: center; margin:10px;}
     #mainList li a{font-size: 16px;}
     canvas{height: 45vh;}
+    .expert{padding:5px; margin: 5px; left:15px}
+}
+
+@media screen and (max-width: 810px){
+  .expert{padding: 5px;}
+  #sec{font-size:25px; margin-top:50px; margin-bottom: 100px; padding: 20px;}
 }
