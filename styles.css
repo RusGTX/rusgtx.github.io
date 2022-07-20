@@ -1,8 +1,23 @@
+
 *{
   margin:0px;
   padding: 0px;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
+h1,h2,h3,p,a{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.navbar #main a{
+  position: fixed;
+  top:0; 
+  right: 0; 
+}
+
+
 
 /*                 PARTICULES             */
 
@@ -71,8 +86,9 @@ font-size: 18px;
     color:grey !important;
 }
 
-.display{
-    font-family: Helvetica, Arial, sans-serif;
+.display{  
+    line-height: .9;
+    letter-spacing: 0;
     font-size: 80px;
     font-weight: 300;
     margin: 5px;
