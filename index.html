@@ -22,7 +22,7 @@
 <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
 
-
+    <script src="lang.js"></script>
     <!--Bootstrap 5-->
    
 </head>
@@ -68,7 +68,7 @@
 
 
 
-<nav class="navbar navbar-expand-md navbar-light bg-white text-dark fixed-top ">
+<nav class="navbar navbar-expand-md navbar-light bg-white text-dark fixed-top overflow-hidden">
     <a class="navbar-brand" href="#">
         <img src="images/logo.png" alt="Logo" style="width:55px;">
     </a>
@@ -78,17 +78,25 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav mr-auto w-100 justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="#about">ABOUT</a>
+          <a class="nav-link lang" key="about" href="#about">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#service">SERVICE</a>
+          <a class="nav-link lang" key="service" href="#service">SERVICE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#career">CAREER</a>
+          <a class="nav-link lang" key="career" href="#career">CAREER</a>
         </li>    
         <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link lang" key="contact" href="#contact">CONTACT</a>
           </li>  
+          <li class="nav-item">
+            <a class="nav-link translate" id="en" href="#">ENG</a>
+            <!--<button class="btn btn-outline-secondary bg-dark btn-sm translate" id="en" disabled>ENG</button>-->
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link translate" id="ru" href="#">RU</a>
+            <!--<button class="btn btn-outline-secondary btn-sm translate" id="ru">RU</button>-->
+          </li> 
       </ul>
     </div>  
   </nav>
@@ -102,16 +110,16 @@
 
 
 
-<div class="container-fluid p-4" id="particles">
+<div class="container-fluid p-4 overflow-hidden" id="particles">
     
     
     <div id="webcoderskull">
         
         <div class="d-flex justify-content-start">
-            <h1 class="display"><span style="color:red">Leading</span> the Way<br>in Russian Law</h1>          
+            <h1 class="display"><span style="color:red" class="lang" key="shapka">Leading</span> <span class="lang" key="golovka">the Way<br>in Russian Law</span></h1>          
         </div>        
         
-                <ul class="nav" id="mainList">
+                <!-- <ul class="nav" id="mainList">
                     <li class="nav-item">
                       <a class="nav-link " href="#about">ABOUT</a>
                     </li>
@@ -124,7 +132,7 @@
                     <li class="nav-item">
                       <a class="nav-link " href="#contact">CONTACT</a>
                     </li>
-                  </ul>
+                  </ul> -->
             
             
         </div> 
@@ -141,12 +149,13 @@
 
 
 
-<div class="container-flud border border-dark border-left-0 border-right-0">
+<div class="container-flud border border-dark border-left-0 border-right-0 overflow-hidden">
     
     <div id="sec">
-        <h1>We advise local and international
+        <h1 class="lang" key="sec">We advise local and international
             companies with different industrial background<br>in Russia and CIS
-            <button type="button" class="btn btn-primary btn-sm rounded-circle">About</button>
+            <!-- <button type="button" class="btn btn-primary btn-sm rounded-circle"><span class="lang" key="ab">More</span></button> -->
+            <a href="#" class="btn btn-outline-light text-dark bg-light lang" key="ab">More</a>
          </h1>  
     </div>
        
@@ -160,7 +169,7 @@
 
 
 
-<dic class="container-fluid " id="about">
+<dic class="container-fluid  overflow-hidden" id="about">
     <div>
         <h3 class="small-header">ABOUT</h3>
     </div>  
@@ -212,7 +221,7 @@
 
 <!--EXPERTISE-->
 
-<dic class="container-fluid" id="service">
+<dic class="container-fluid overflow-hidden" id="service">
     <div><h3 class="small-header">SERVICE</h3></div>
     
 
@@ -265,7 +274,7 @@
 
 <!--TEAM-->
 
-<div class="container-fluid border border-dark border-right-0 border-left-0" id="career">
+<div class="container-fluid border border-dark border-right-0 border-left-0 overflow-hidden" id="career">
     <div><h3 class="small-header">CAREER</h3></div>
    
     <div id="sec">
@@ -293,7 +302,7 @@
 <!--MEDIA-->
 
 
-<dic class="container-fluid" id="media">
+<dic class="container-fluid overflow-hidden" id="media">
     <div><h3 class="small-header">MEDIA</h3></div>
     
 
@@ -339,7 +348,7 @@
 
 <!--CONTACT-->
 
-<div class="container-fluid" id="contact">
+<div class="container-fluid overflow-hidden" id="contact">
     <div><h3 class="small-header">CONTACT</h3></div>
     
    
@@ -430,6 +439,12 @@
 
 <!-- scripts -->
 <script src="script.js"></script>
+
+<script src="lang.js"></script>
+
+
+
+
 
 
 
