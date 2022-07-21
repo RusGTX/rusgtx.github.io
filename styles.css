@@ -16,7 +16,10 @@ h1,h2,h3,p,a{
   top:0; 
   right: 0; 
 }
-
+#collapsibleNavbar ul li a:hover{
+  color:red;
+  transition: 0.3s;
+}
 
 
 /*                 PARTICULES             */
@@ -225,7 +228,7 @@ hr{
     #webcoderskull h1{font-size: 2rem;}
     #mainList{justify-content: center; margin:10px;}
     #mainList li a{font-size: 16px;}
-    canvas{height: 45vh;}
+    canvas{height: 55vh;}
     .expert{padding:5px; margin: 5px; left:15px}
 }
 
