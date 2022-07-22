@@ -239,8 +239,8 @@ hr{
   #sec{font-size:25px; margin-top:50px; margin-bottom: 100px; padding: 20px;}
 }
 @media screen and (max-width: 1980px){
-  .small-header{font-size: 30px;}
-  .expert nav li a{font-size: 30px;}
-  #about p, #media p{font-size: 25px;}
-  #contact a{font-size: 22px;}
+  .small-header{font-size: 1.875em;}
+  .expert nav li a{font-size: 1.875em;}
+  #about p, #media p{font-size: 1.5625em;}
+  #contact a{font-size: 1.375em;}
 }
