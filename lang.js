@@ -5,8 +5,8 @@ var arrLang=  {
         'service':'SERVICE',
         'career':'CAREER',
         'contact':'CONTACT',
-        'shapka':'Leading',
-        'golovka':'the way in Russian Law',
+        'shapka':'DEEP',
+        'golovka':'SCTRUCTURED LEGAL SERVICES',
         'sec':'We advise local and international companies with different industrial background in Russia and CIS',
         'ab':'More',
 
