@@ -1,5 +1,5 @@
 
-var arrLang=  {
+var arrLang = {
     'en': {
         'about':'ABOUT',
         'service':'SERVICE',
@@ -100,7 +100,7 @@ $(function(){
         var lang = $(this).attr('id');
 
         $('.lang').each(function(index, item){
-            $(this).text(arrLang[lang][$(this).attr('key')])
+            $(this).text(arrLang[lang][$(this).attr('key')]);
         })
     })
 })
