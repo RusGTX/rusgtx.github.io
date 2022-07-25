@@ -20,6 +20,13 @@ h1,h2,h3,p,a{
   top:0; 
   right: 0; 
 }
+
+#head img{
+  width: 25px;
+  height: 25px;
+}
+
+
 #collapsibleNavbar ul li a:hover{
   color:red;
   transition: 0.3s;

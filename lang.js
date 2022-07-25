@@ -35,24 +35,24 @@ var arrLang = {
         'st24':'etc.',
         'st25':'CAREER',
         'st26':'We are always looking for highly creative and talented people to join us.',
-        'st27':'Even if there is no published vacancy, at the moment, please feel free to reach out. We will be happy to review your application.',
-        'st28':'Email your CV and a cover letter explaining your motivation and stating the areas of your interest to: career@dlp.am',
+        'st27':'Even if there is no published vacancy, at the moment, please feel free to reach out, email your CV and a cover letter explaining you motivation and stating the areas of your interest to:',
+        'st28':'We will be happy to review your application.',
         'st29':'If we do have a role that might be suitable, we will reach out with more information.',
         'st30':'CONTACT',
         'st31':'Armenia, Yerevan, Adonc 17/1',
         'st32':'On map',
         'st33':'Tel: + 374 55 29 11 19',
-        'st34':'Privacy Policy',
+        'st34':'',
         'st35':'Site made by R&M',
         'st36':'DLP, 2022'
     },
     'ru':{
         'about': 'О НАС',
-        'service':'Услуги',
+        'service':'УСЛУГИ',
         'career':'КАРЬЕРА',
         'contact':'КОНТАКТЫ',
-        'shapka':'ГЛУБИННЫЕ ',
-        'golovka':' ЮРИДИЧЕСКИЕ УСЛУГИ',
+        'shapka':'ГЛУБИННЫЕ',
+        'golovka':' ПРАВОВЫЕ РЕШЕНИЯ',
         'shapka2':'МЫ РЕШАЕМ СЛОЖНЫЕ ЮРИДИЧЕСКИЕ ЗАДАЧИ',
         'st1':'Фирма предоставляет консультации по любым юридическим вопросам, с которыми может столкнуться ваш бизнес.  ',
         'st2':'Фирма была основана в 2020 году, и нашей основной целью является предоставление высококачественных юридических услуг высокотехнологичным отраслям, поддержка их роста и расширения. ',
@@ -79,18 +79,19 @@ var arrLang = {
         'st22':'Маркетинг',
         'st23':'Венчурные фонды',
         'st24':'и т.д.',
-        'st26':'Карьера',
-        'st27':'Мы в постоянном поиске креативных специалистов. ',
-        'st28':'Даже если в данный момент нет опубликованной вакансии, пожалуйста, не стесняйтесь, отправьте свое резюме и сопроводительное письмо по адресу: career@dlp.am. Мы будем рады его рассмотреть. ',
+        'st25':'КАРЬЕРА',
+        'st26':'Мы в постоянном поиске креативных специалистов.',
+        'st27':'Даже если в данный момент нет опубликованной вакансии, пожалуйста, не стесняйтесь, отправьте свое резюме и сопроводительное письмо по адресу:',
+        'st28':'Мы будем рады его рассмотреть.',
         'st29':'Если у нас будет подходящая вакансия, мы свяжемся с вами и предоставим подробную информацию.',
         'st30':'КОНТАКТЫ',
         'st31':'Армения, Ереван, Адонца 17/1',
         'st32':'На карте',
         'st33':'Тел: + 374 55 29 11 19',
-        'st34':'Политика конфиденциальности',
+        'st34':'',
         'st35':'Сайт сделан R&M',
         'st36':'Глубинные, 2022',
-        'st37': 'aaaaa'
+        
     }
 }
 
@@ -105,5 +106,5 @@ $(function(){
         $('.lang').each(function(index, item){
             $(this).text(arrLang[lang][$(this).attr('key')]);            
         }) 
-    })
+    })    
 })
