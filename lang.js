@@ -89,18 +89,21 @@ var arrLang = {
         'st33':'Тел: + 374 55 29 11 19',
         'st34':'Политика конфиденциальности',
         'st35':'Сайт сделан R&M',
-        'st36':'Глубинные, 2022'
+        'st36':'Глубинные, 2022',
+        'st37': 'aaaaa'
     }
 }
 
+
+//LANGUAGE CHANGE FUNCTION
 
 
 $(function(){
     $('.translate').click(function(){
         var lang = $(this).attr('id');
-
+        
         $('.lang').each(function(index, item){
-            $(this).text(arrLang[lang][$(this).attr('key')]);
-        })
+            $(this).text(arrLang[lang][$(this).attr('key')]);            
+        }) 
     })
 })
