@@ -1,5 +1,6 @@
 
 var arrLang = {
+    
     'en': {
         'about':'ABOUT US',
         'service':'SERVICE',
@@ -8,13 +9,21 @@ var arrLang = {
         'shapka':'DEEP',
         'golovka':'SCTRUCTURED LEGAL SERVICES',
         'shapka2':'We solve comprehensive legal tasks',
-        'st1':'The firm provides advice on any legal matters that your business may be facing.',
-        'st2':'The firm has been established in 2020 and our main goal is to deliver high-quality legal services to high-tech industry, support their growth and expansion.',
-        'st3':'We have more than ten years of professional experience both in public and private sectors. Our lawyers successfully represented one of the largest D2C platforms in CIS region, helping them to expend their market and profit.',
-        'st4':'Nowadays, we operate in Armenia and Russia. Moreover, we constantly enlarge our network for the sake of our clients.',
-        'st5':'Partners of the firm: Levon Sargsyan',
-        'st6':'Lawyers of the firm:',
-        'practice':'Practice',
+        'st1':'We serve companies and individuals to pursue strategic and fiscal objectives with confidence. Our provides advice on any legal matter that your business may face. In achieving these objectives, we analyze and follow up on the commercial realities that drive the need to ensure the businesses’ compliance with the legal framework.',
+
+        'st2':'The firm was founded in 2020, with a primary objective of to delivering exceptional legal services to the high-tech industry, support their growth and expansion. Our firm is not only about helping businesses operate smoothly. Our diligent legal support helps businesses to thrive, thus contributing to the economic upheaval of the countries we operate in. ',
+        'st3':'Our team members have more than ten years of professional experience both in public and private sectors, which enables us to analyze complex matters from various perspectives. The team member’s diverse experience will be valuable for you in the context of shifting economic uncertainties and regulatory environments. ',
+        'st4':'Our lawyers successfully represented one of the largest D2C platforms in the CIS region, helping them to expend their market and profit. Currently, we operate in Armenia and Russia. We enlarge our network to boost the firm’s growth and our capacity in helping our clients.',
+        'st5':'Our people: ',
+        'st6':'Levon Sargsyan',
+        'st7':'Sofia Zakharyan',
+        'st8':'Our firm offers comprehensive legal services for business with the help of our high-skilled lawyers and advocates. Our services will be helpful in addressing current matters your business faces. Furthermore, we offer due diligence services through preventing any legal problems with controlling authorities and counterparties in due time. ',
+
+
+
+
+        
+        /* 'practice':'Practice',
         'st7':'Antitrust Cases',
         'st8':'Contracting Services',
         'st9':'Data Protection',
@@ -48,7 +57,7 @@ var arrLang = {
         'st37':'This site uses cookies.',
         'st38':'If you don’t mind, just keep going.',
         'st39':'Cancel',
-        'st40':'Got it! '
+        'st40':'Got it! ' */
     },
     'ru':{
         'about': 'О НАС',
@@ -57,14 +66,18 @@ var arrLang = {
         'contact':'КОНТАКТЫ',
         'shapka':'ГЛУБИННЫЕ',
         'golovka':' ПРАВОВЫЕ РЕШЕНИЯ',
-        'shapka2':'МЫ РЕШАЕМ СЛОЖНЫЕ ЮРИДИЧЕСКИЕ ЗАДАЧИ',
-        'st1':'Фирма предоставляет консультации по любым юридическим вопросам, с которыми может столкнуться ваш бизнес.  ',
-        'st2':'Фирма была основана в 2020 году, и нашей основной целью является предоставление высококачественных юридических услуг высокотехнологичным отраслям, поддержка их роста и расширения. ',
-        'st3':'Мы обладаем более чем десятилетним профессиональным опытом работы как в государственном, так и в частном секторе. Наши юристы успешно представляли интересы одной из крупнейших D2C-платформ в СНГ, помогая ей расширять рынок и увеличивать прибыль.',
-        'st4':'В настоящее время мы работаем в Армении и России, постоянно расширяя нашу партнерскую сеть ради всесторонней защиты интересов наших клиентов.',
-        'st5':'Партнеры: Левон Саргсян',
-        'st6':'Юристы:',
-        'practice':'Деятельность',
+        'shapka2':'Мы решаем сложные юридические задачи.',
+        'st1':'Мы оказываем услуги компаниям и частным лицам для безоговорочного достижения стратегических и финансовых целей. Мы предоставляем консультации по любым юридическим вопросам, с которыми может столкнуться ваш бизнес, анализируем и отслеживаем коммерческие реалии, определяющие необходимость обеспечения соответствия бизнеса законодательной базе.  ',
+        'st2':'Главной целью фирмы, основанной в 2020 году, является предоставление исключительных юридических услуг представителям компаний высокотехнологичной отрасли. Наша фирма не только способствует бесперебойной работе предприятий. Добросовестная юридическая поддержка содействует  процветанию бизнеса и, соответственно, экономическому подъему стран, в которых мы работаем.',
+        'st3':'Члены нашей команды имеют более чем десятилетний профессиональный опыт работы как в государственном, так и в частном секторе, что позволяет нам анализировать сложные вопросы с различных точек зрения. Разнообразный опыт членов команды бесценен в условиях экономической неопределенности и меняющейся нормативно-правовой среды.',
+        'st4':'Наши юристы успешно представляли интересы одной из крупнейших D2C-платформ в регионе СНГ, оказывая содействие в развитии рынка и увеличении прибыли.  В настоящее время мы работаем в Армении и России. Расширение фирмы будет способствовать более эффективному оказанию помощи нашим клиентам.',
+        'st5':'Наши люди: ',
+        'st6':'Левон Саргсян',
+        'st7':'София Захарян',
+        'st8':'Наша фирма предлагает комплексные юридические услуги для бизнеса, оказываемые нашими высококвалифицированными юристами и адвокатами. Наши услуги будут полезны в решении текущих вопросов, с которыми сталкивается ваш бизнес. Кроме того, мы предлагаем услуги по проведению комплексной юридической экспертизы путем своевременного предотвращения любых правовых проблем с контролирующими органами и контрагентами.',
+        
+
+        /* 'practice':'Деятельность',
         'st7':'Антимонопольные дела',
         'st8':'Подготовка договоров',
         'st9':'Защита персональных данных',
@@ -98,7 +111,7 @@ var arrLang = {
         'st37':'Мы используем cookie-файлы, чтобы улучшить работу сайта.',
         'st38':'Продолжая просмотр, вы соглашаетесь с их использованием.',
         'st39':'Отмена',
-        'st40':'Понятно!'
+        'st40':'Понятно!' */
     }
 }
 

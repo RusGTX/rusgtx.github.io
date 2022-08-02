@@ -163,6 +163,18 @@ hr{
 }
 
 
+.partners{
+  display: inline-flex;
+  padding-right: 5px;
+}
+.partners .left-p{
+  margin-right: 5px;
+  
+}
+
+
+
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -180,7 +192,7 @@ hr{
     canvas{height: 60vh;width: 100vw;margin-left: 0px;}
     .expert{padding:5px; margin: 5px; left:15px}
     .expert nav li a{font-size: 1.125em;}
-    .move{padding-top: 10px; padding-bottom: 50px;}    
+    .move{padding-top: 10px; padding-bottom: 30px;}    
     .cookie-consent-modal{height: 60vh;width: 100%;top: 0;left: 0;}
  
 }
@@ -192,6 +204,7 @@ hr{
 @media screen and (max-width: 1980px){
   #webcoderskull h1{padding: 75px;}
   .small-header{font-size: 1.5em;}  
+  .move{padding-bottom: 0px;}  
  /*  #about p, #career p{font-size: 1.5625em;} */
   #contact a{font-size: 1.375em;}
 }
