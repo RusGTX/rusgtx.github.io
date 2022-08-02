@@ -170,8 +170,9 @@ hr{
 
 @media screen and (max-width: 450px){
     
-    #main a {padding: 0px; margin-left: 5px;}    
-    #header-contact{max-height: 400px;}
+    
+    #about h1{font-size: 1.25em !important;}
+    #about p{font-size: 0.9em;}
     #sec{font-size: 16px; margin: 0px; padding: 5px;}
     #webcoderskull{top: 20%;}
     #webcoderskull #title{text-align: left;}     
@@ -179,14 +180,8 @@ hr{
     canvas{height: 60vh;width: 100vw;margin-left: 0px;}
     .expert{padding:5px; margin: 5px; left:15px}
     .expert nav li a{font-size: 1.125em;}
-    .move{padding-top: 10px; padding-bottom: 50px;}
-    
-    .cookie-consent-modal{
-      height: 60vh;
-      width: 100%;
-      top: 0;
-      left: 0;
-    }
+    .move{padding-top: 10px; padding-bottom: 50px;}    
+    .cookie-consent-modal{height: 60vh;width: 100%;top: 0;left: 0;}
  
 }
 
@@ -196,8 +191,8 @@ hr{
 }
 @media screen and (max-width: 1980px){
   #webcoderskull h1{padding: 75px;}
-  .small-header{font-size: 1.875em;}  
-  #about p, #career p{font-size: 1.5625em;}
+  .small-header{font-size: 1.5em;}  
+ /*  #about p, #career p{font-size: 1.5625em;} */
   #contact a{font-size: 1.375em;}
 }
 

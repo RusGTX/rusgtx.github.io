@@ -1,7 +1,7 @@
 
 var arrLang = {
     'en': {
-        'about':'ABOUT',
+        'about':'ABOUT US',
         'service':'SERVICE',
         'career':'CAREER',
         'contact':'CONTACTS',
