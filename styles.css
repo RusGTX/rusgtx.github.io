@@ -194,6 +194,14 @@ hr{
     .expert nav li a{font-size: 1.125em;}
     .move{padding-top: 10px; padding-bottom: 30px;}    
     .cookie-consent-modal{height: 60vh;width: 100%;top: 0;left: 0;}
+
+    .card-body .row .col{
+      padding: 0;
+    }
+    .card-body p{
+      font-size: 0.9rem;
+    }
+  
  
 }
 
