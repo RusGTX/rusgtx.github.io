@@ -12,7 +12,8 @@ body{
   overflow-x: hidden;
 }
 h1,h2,h3,h4,p,a{
-  font-family: 'Raleway', sans-serif !important;
+  /*  font-family: 'Raleway', sans-serif !important;  */
+  font-family: 'Poppins', sans-serif !important;  
 }
 
 .navbar #main a{
@@ -52,8 +53,8 @@ canvas{
 }
 
 #webcoderskull h1{
-  letter-spacing: 8px;
-  font-size: 4rem;  
+  letter-spacing: 6px;
+  font-size: 3.5rem;  
 } 
 #webcoderskull #title{
   text-align: center;
@@ -171,9 +172,6 @@ hr{
   margin-right: 5px;  
 }
 
-#contact p{
-  font-family: ;
-}
 
 
 @media screen and (max-height: 450px) {
@@ -181,41 +179,37 @@ hr{
     .sidenav a {font-size: 18px;}
 }
 
-@media screen and (max-width: 450px){
-    
-    
-    #about h1{font-size: 1.25em !important;}
+@media screen and (max-width: 450px){      
+    #about h1{font-size: 1.4em !important;}
     #about p{font-size: 0.9em;}
     #sec{font-size: 16px; margin: 0px; padding: 5px;}
     #webcoderskull{top: 20%;}
     #webcoderskull #title{text-align: left;}     
-    #webcoderskull h1{font-size: 30px;}    
+    #webcoderskull h1{font-size: 2rem;}    
     canvas{height: 60vh;width: 100vw;margin-left: 0px;}
     .expert{padding:5px; margin: 5px; left:25px}
     .expert nav li a{font-size: 1em;}
-    .collapse p{ }
-
-
     .move{padding-top: 10px; padding-bottom: 5px !important;}    
     .cookie-consent-modal{height: 60vh;width: 100%;top: 0;left: 0;}
-
     .card-body .row .col{padding: 0;}
-    .card-body p{font-size: 0.9rem;}
-  
+    .card-body p{font-size: 0.9rem;}  
     #career .row{padding-top: 20px !important; padding-bottom: 20px !important; }
  
 }
 
 @media screen and (max-width: 810px){
+  #webcoderskull{top: 20%;}
+  #webcoderskull h1{letter-spacing: 6px; font-size: 2rem !important;}
+  canvas{height: 50vh; width: 100vw;margin-left: 0px;}
+  #about h1{font-size: 1.75em;}
   .expert{padding: 5px;}
   #sec{font-size:25px; margin-top:50px; margin-bottom: 100px; padding: 20px;}
+
 }
 @media screen and (max-width: 1980px){
   #webcoderskull h1{padding: 75px;}
   .small-header{font-size: 1.5em;}  
-  .move{padding-bottom: 50px;padding-top: 50px;}   
-  
- 
+  .move{padding-bottom: 50px;padding-top: 50px;}  
   #contact a{font-size: 1.375em;}
   .expert{padding-top: 0px; padding-bottom: 50px;}
   .expert .nav-item{padding-left: 0px; margin-left: -15px;}
