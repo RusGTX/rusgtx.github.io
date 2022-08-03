@@ -171,7 +171,9 @@ hr{
   margin-right: 5px;  
 }
 
-
+#contact p{
+  font-family: ;
+}
 
 
 @media screen and (max-height: 450px) {
@@ -190,8 +192,8 @@ hr{
     #webcoderskull h1{font-size: 30px;}    
     canvas{height: 60vh;width: 100vw;margin-left: 0px;}
     .expert{padding:5px; margin: 5px; left:25px}
-    .expert nav li a{font-size: 1.125em;}
-    .collapse p{ font-size: 0.8rem; text-align: center;}
+    .expert nav li a{font-size: 1em;}
+    .collapse p{ }
 
 
     .move{padding-top: 10px; padding-bottom: 5px !important;}    
@@ -213,16 +215,11 @@ hr{
   .small-header{font-size: 1.5em;}  
   .move{padding-bottom: 50px;padding-top: 50px;}   
   
- /*  #about p, #career p{font-size: 1.5625em;} */
+ 
   #contact a{font-size: 1.375em;}
   .expert{padding-top: 0px; padding-bottom: 50px;}
   .expert .nav-item{padding-left: 0px; margin-left: -15px;}
   .expert .nav a:hover{cursor: pointer;}
-  .collapse p{
-    padding: 0px;
-    margin: 0px;
-    transition: 0.2s;  
-    text-align: center;  
-  }
+  .expert .nav p{font-size: 0.8rem;}
 }
 
