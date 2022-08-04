@@ -9,7 +9,7 @@ var arrLang = {
         'shapka':'DEEP',
         'golovka':'SCTRUCTURED LEGAL SERVICES',
         'shapka2':'We solve comprehensive legal tasks',
-        'st1':'We serve companies and individuals to pursue strategic and fiscal objectives with confidence. Our provides advice on any legal matter that your business may face. In achieving these objectives, we analyze and follow up on the commercial realities that drive the need to ensure the businesses’ compliance with the legal framework.',
+        'st1':'We serve companies and individuals to pursue strategic and fiscal objectives with confidence. Our firm provides advice on any legal matter that your business may face. In achieving these objectives, we analyze and follow up on the commercial realities that drive the need to ensure the businesses’ compliance with the legal framework.',
 
         'st2':'The firm was founded in 2020, with a primary objective of to delivering exceptional legal services to the high-tech industry, support their growth and expansion. Our firm is not only about helping businesses operate smoothly. Our diligent legal support helps businesses to thrive, thus contributing to the economic upheaval of the countries we operate in. ',
         'st3':'Our team members have more than ten years of professional experience both in public and private sectors, which enables us to analyze complex matters from various perspectives. The team member’s diverse experience will be valuable for you in the context of shifting economic uncertainties and regulatory environments. ',
@@ -53,7 +53,7 @@ var arrLang = {
 
         'st36':'CAREER',
         'st37':'As an employer, we embrace reward performance and diversity, with a goal of ensuring equal development opportunities for our team members. We are always looking for highly creative and talented professionals to join us.',
-        'st38':'Notwithstanding that currently we do not have published vacancies, please feel free to reach out to us. You may e-mail your CV and a cover letter, alongside your motivation, experience (not mandatory) and areas of interest to: career@dlp.am',
+        'st38':'Notwithstanding that currently we do not have published vacancies, please feel free to reach out to us. You may e-mail your CV and a cover letter, alongside your motivation, experience (not mandatory) and areas of interest to: career@dpl.am',
         'st39':'We are pleased to review your application.',
         'st40':'If we do have a suitable position, we will contact you with more details.',
 
@@ -119,7 +119,7 @@ var arrLang = {
 
         'st36':'КАРЬЕРА',
         'st37':'Как работодатель, мы поощряем результативность и разнообразие, стремясь обеспечить равные возможности развития для членов нашей команды. Мы всегда ищем креативных и талантливых специалистов.',
-        'st38':'Несмотря на то, что в настоящее время у нас нет опубликованных вакансий, пожалуйста, не стесняйтесь обращаться к нам. Вы можете отправить свое резюме и сопроводительное письмо с указанием мотивации, опыта (не обязательно) и сфер интересов по электронной почте по адресу: career@dlp.am',
+        'st38':'Несмотря на то, что в настоящее время у нас нет опубликованных вакансий, пожалуйста, не стесняйтесь обращаться к нам. Вы можете отправить свое резюме и сопроводительное письмо с указанием мотивации, опыта (не обязательно) и сфер интересов по электронной почте по адресу: career@dpl.am',
         'st39':'Мы с удовольствием рассмотрим ваше заявление.',
         'st40':'Если у нас будет подходящая вакансия, мы свяжемся с вами для уточнения деталей.',
 
