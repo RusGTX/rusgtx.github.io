@@ -53,13 +53,13 @@ var arrLang = {
 
         'st36':'CAREER',
         'st37':'As an employer, we embrace reward performance and diversity, with a goal of ensuring equal development opportunities for our team members. We are always looking for highly creative and talented professionals to join us.',
-        'st38':'Notwithstanding that currently we do not have published vacancies, please feel free to reach out to us. You may e-mail your CV and a cover letter, alongside your motivation, experience (not mandatory) and areas of interest to: career@dpl.am',
+        'st38':'Notwithstanding that currently we do not have published vacancies, please feel free to reach out to us. You may e-mail your CV and a cover letter, alongside your motivation, experience (not mandatory) and areas of interest to: info@dpl.am',
         'st39':'We are pleased to review your application.',
         'st40':'If we do have a suitable position, we will contact you with more details.',
 
         'st41':'CONTACTS',
         'st42':'Address: Republic of Armenia, Yerevan, Azatutyan backstreet 9a',
-        'st43':'Phone number: +37493511511 / +37455291119   office@dpl.am',
+        'st43':'Phone number: +37455291119   info@dpl.am',
         'st44':'Follow Us on',
         'st45':'All Rights Reserved.',
         'st46':'Site made by R&M'
@@ -119,13 +119,13 @@ var arrLang = {
 
         'st36':'КАРЬЕРА',
         'st37':'Как работодатель, мы поощряем результативность и разнообразие, стремясь обеспечить равные возможности развития для членов нашей команды. Мы всегда ищем креативных и талантливых специалистов.',
-        'st38':'Несмотря на то, что в настоящее время у нас нет опубликованных вакансий, пожалуйста, не стесняйтесь обращаться к нам. Вы можете отправить свое резюме и сопроводительное письмо с указанием мотивации, опыта (не обязательно) и сфер интересов по электронной почте по адресу: career@dpl.am',
+        'st38':'Несмотря на то, что в настоящее время у нас нет опубликованных вакансий, пожалуйста, не стесняйтесь обращаться к нам. Вы можете отправить свое резюме и сопроводительное письмо с указанием мотивации, опыта (не обязательно) и сфер интересов по электронной почте по адресу: info@dpl.am',
         'st39':'Мы с удовольствием рассмотрим ваше заявление.',
         'st40':'Если у нас будет подходящая вакансия, мы свяжемся с вами для уточнения деталей.',
 
         'st41':'КОНТАКТЫ',
         'st42':'Адрес: Республика Армения, Ереван, Азатутян з/д 9a',
-        'st43':'Тел.: +37493511511 / +37455291119    office@dpl.am',
+        'st43':'Тел.: +37455291119    info@dpl.am',
         'st44':'Следите за нами на',
         'st45':'Все права защищены.',
         'st46':'Сайт сделан R&M'
